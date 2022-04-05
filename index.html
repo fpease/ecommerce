@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <title>Schroder Blankets</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
+                Schroder Blankets
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="wool.html">Wool</a></li>
+                            <li><a class="dropdown-item" href="cotton.html">Cotton</a></li>
+                            <li><a class="dropdown-item" href="fleece.html">Fleece</a></li>
+                            <li><a class="dropdown-item" href="all.html">All Products</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item" id="cart">
+                        <a class="nav-link" href="cart.html">Cart</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/blanket1.jpg" height="800px" class="d-block w-100" alt="Fleece Blanket">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>High Quality</h5>
+                    <p>Blankets made from only the highest quality materials.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/blanket2.jpg" height="800px" class="d-block w-100" alt="Cotton Blanket">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Natural Materials</h5>
+                    <p>Blankets made from 100% natural materials no artificial.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/blanket3.jpg" height="800px" class="d-block w-100" alt="Wool Blanket">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Great Costs</h5>
+                    <p>Blankets are very affordable.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <br>
+    <h2 id="title1">Products</h4>
+
+    <br>
+    <div class="cards">
+        <div class="card1" style="width: 18rem;">
+            <img src="images/cotton1.jpg" height="300px" width="300px" class="card-img-top" alt="Cotton Blanket">
+            <div class="card-body">
+                <h5 class="card-title">Cotton Blankets</h5>
+                <p class="card-text">Light blankets made out of 100% cotton. Light weight blanket that is perfect for the beach, a picnic or a light nap.</p>
+                <a href="cotton.html" class="btn btn-primary">Shop</a>
+            </div>
+        </div>
+
+        <div class="card2" style="width: 18rem;">
+            <img src="images/fleece1.jpg" height="300px" class="card-img-top" alt="Fleece Blanket">
+            <div class="card-body">
+                <h5 class="card-title">Fleece Blankets</h5>
+                <p class="card-text">Heavy blanket made out of 100% fleece. Warm heavy blanket perfect to keep you warm on a cold night.</p>
+                <a href="fleece.html" class="btn btn-primary">Shop</a>
+            </div>
+        </div>
+
+        <div class="card3" style="width: 18rem;">
+            <img src="images/wool1.jpg" height="300px" class="card-img-top" alt="Wool Blanket">
+            <div class="card-body">
+                <h5 class="card-title">Wool Blankets</h5>
+                <p class="card-text">Medium weight blanket made of 100% wool. Perfect medium weight blanket great decorative piece; can also be used for sleep or as a throw.</p>
+                <a href="wool.html" class="btn btn-primary">Shop</a>
+            </div>
+        </div>   
+    </div>
+
+    <br>
+    <p id="moto">"Coziness is next to godliness"</p>
+
+    <br>
+    <div class="footer">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="TC.html">Terms and Conditions</a>
+                <a class="nav-link" href="privacy.html">Privacy Policy</a>
+                <a class="nav-link" href="shipping.html">Shipping Terms</a>
+                <a class="nav-link" href="return.html">Return Policy</a>
+            </li>
+            <p class="copyright">@Schroder Blankets2022</p>
+        </ul>
+        
+    </div>
+</body>
+
+</html>

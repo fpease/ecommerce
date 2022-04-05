@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="jquery-ui-1.13.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.1/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.1/jquery-ui.theme.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.1/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Schroder Blankets</title>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="jquery-ui-1.13.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#accordion").accordion();
+            heightStyle: "content"
+        });
+    </script>
+
+    <style>
+        .objects {
+            margin-left: 60px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .objects2 {
+            margin-left: 800px;
+            display: flex;
+            flex-direction: column;
+            margin-top: -300px;
+            margin-bottom: 365px;
+        }
+
+        #accordion {
+            width: 600px;
+            height: 200px;
+        }
+
+        #header {
+            margin-left: 160px;
+            margin-top: 50px;
+
+        }
+
+        #header2 {
+            margin-left: 250px;
+            margin-top: 50px;
+            margin-bottom: 25px;
+
+        }
+
+        #summary {
+            margin-top: 60px;
+            text-align: center;
+            width: 500px;
+            margin-right: 1000px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
+                Schroder Blankets
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="wool.html">Wool</a></li>
+                            <li><a class="dropdown-item" href="cotton.html">Cotton</a></li>
+                            <li><a class="dropdown-item" href="fleece.html">Fleece</a></li>
+                            <li><a class="dropdown-item" href="all.html">All Products</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item" id="cart">
+                        <a class="nav-link" href="cart.html">Cart</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="objects">
+        <h3 id="header">About Us</h3>
+        <p id="summary">Schroder Blankets sells the most affordable and high quality blankets. We use the finest
+            materials in our blankets and ensure that everything is 100% natural. In our wool blankets we use merino
+            wool which is the highest qulaity wool on the market. In our cotton blankets we use supima cotton also
+            the
+            best cotton in the industry. Lastly in our fleece blankets we use polar fleece which is the warmest
+            fleece
+            in the market.</p>
+    </div>
+
+    <div class="objects2">
+        <h3 id="header2">FAQs</h3>
+        <div id="accordion">
+            <h3>Where are your materials from?</h3>
+            <div>
+                <p>
+                    Schorder Blankets uses the highest quality materials in the market. We get our cotton, wool or fleece from sheep that are farm raised without chemicals. 
+                </p>
+            </div>
+            <h3>How quick are orders proccessed?</h3>
+            <div>
+                <p>
+                    As soon as you submit your order we start proccessing it right away. Depending what you spent on shipping orders should be recieved in 1-2 weeks.
+                </p>
+            </div>
+            <h3>What is the return policy?</h3>
+            <div>
+                <p>
+                    Our full return policy can be found on our website but you have 30 days to return your order. If it past 30 days, returns are not accepted.
+                </p>
+            </div>
+            <h3>Why are your blankets the best?</h3>
+            <div>
+                <p>
+                    Our blankets are the best because they are affordable and are made from the best materials on the market. He have recived numerous positive feedback and have been praised on our customer service.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <br>
+    <div class="footer">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="TC.html">Terms and Conditions</a>
+                <a class="nav-link" href="privacy.html">Privacy Policy</a>
+                <a class="nav-link" href="shipping.html">Shipping Terms</a>
+                <a class="nav-link" href="return.html">Return Policy</a>
+            </li>
+            <p class="copyright">@Schroder Blankets2022</p>
+        </ul>
+
+    </div>
+</body>
+
+</html>

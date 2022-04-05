@@ -1,0 +1,36 @@
+#cart{
+    margin-left: 700px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style-type: none;
+    background-color: rgb(245, 245, 245); 
+}
+
+.footer li {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    color: black;
+}
+
+#title1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.copyright{
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+}
+
+#moto{
+    text-align: center;
+    font-size: 2em;
+}
